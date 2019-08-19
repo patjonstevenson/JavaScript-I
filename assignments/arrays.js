@@ -88,7 +88,7 @@ let inventory = [
 console.log(
   `Car 33 is a ${inventory[32].car_year} ${inventory[32].car_make} ${
     inventory[32].car_model
-  }`
+  }.`
 );
 
 // ==== Challenge 2 ====
@@ -97,7 +97,7 @@ let lastCar = 0;
 console.log(
   `The last car in the inventory is a ${inventory[49].car_make} ${
     inventory[49].car_model
-  }`
+  }.`
 );
 
 // ==== Challenge 3 ====
