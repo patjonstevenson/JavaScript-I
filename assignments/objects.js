@@ -100,15 +100,15 @@ const parent = {
     child: {
       name: "Sam",
       age: 30,
-      speak: function() {
+      speak() {
         console.log(`My name is ${this.name}.`);
       }
     },
-    speak: function() {
+    speak() {
       console.log(`My name is ${this.name}.`);
     }
   },
-  speak: function() {
+  speak() {
     console.log(`My name is ${this.name}.`);
   }
 };
